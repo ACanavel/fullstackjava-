@@ -1,0 +1,54 @@
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava (master)
+$ git init
+Initialized empty Git repository in C:/Users/Win7/Desktop/fullstackjava/.git/
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava (master)
+$ git clone https://github.com/ACanavel/fullstackjava-.git
+Cloning into 'fullstackjava-'...
+warning: You appear to have cloned an empty repository.
+Módulo 1: Programación en Java
+Módulo 2: Lenguaje de Consultas a una Base de Datos
+Módulo 3: Fundamentos de Desarrollo Web 
+
+
+
+
+
+PROCESO DEL GIT
+
+
+
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fullstackjava-/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava (master)
+$ git add .
+error: 'fullstackjava-/' does not have a commit checked out
+fatal: adding files failed
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        fullstackjava-/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava (master)
+$ git add ejercicio1
+fatal: pathspec 'ejercicio1' did not match any files
