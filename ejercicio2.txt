@@ -1,0 +1,43 @@
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava/fullstackjava- (master) (Agregando documentos al repositorio)
+$ git add .
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava/fullstackjava- (master) (Realizando el primer comentario)
+$ git commit -m "primera actualización"
+[master (root-commit) f9f9f58] primera actualizaci+¦n
+ 3 files changed, 54 insertions(+)
+ create mode 100644 ejercicio1.txt
+ create mode 100644 ejercicio2.txt
+ create mode 100644 modulos/modulo1.txt
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava/fullstackjava- (master)
+$ git push -u origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 847 bytes | 282.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ACanavel/fullstackjava-.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava/fullstackjava- (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava/fullstackjava- (master)
+$ git add modulos
+
+Win7@Win7-PC MINGW64 ~/Desktop/fullstackjava/fullstackjava- (master) (Se realiza actualización en texto de modulo 1)
+$ git commit -m "actualizacion en modulo"
+[master a397763] actualizacion en modulo
+ 1 file changed, 1 insertion(+)
+
+
+
+
